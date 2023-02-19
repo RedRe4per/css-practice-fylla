@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid var(--text-color-secondary) 1px;
+  padding-bottom: 40px;
+}
+
+.header--logo__image {
+  object-fit: contain;
+}
+
+.header--nav {
+  display: flex;
+  align-items: center;
+}
+
+.header--ul {
+  display: flex;
+  font-family: var(--font-secondary);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--text-color-primary);
+  text-transform: uppercase;
+  gap: 32px;
+  margin: 0px 32px;
+}
+
+.header--pages {
+  position: relative;
+  margin-right: 20px;
+}
+
+.header--pages::after {
+  content: url('/icons/dropdown-arrow.svg');
+  position: absolute;
+  margin-left: 9.82px;
+  bottom: 20%;
+}
+
+.header--cart {
+  display: none;
+}
