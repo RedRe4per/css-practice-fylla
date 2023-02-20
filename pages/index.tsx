@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <main className="wrapper">
       <Header/>
+      <div>uat test</div>
       <Footer/>
     </main>
   )
