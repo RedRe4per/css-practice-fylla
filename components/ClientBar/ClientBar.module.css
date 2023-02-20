@@ -1,0 +1,21 @@
+.client-bar--main {
+    display: flex;
+    align-items: center;
+    border-bottom: solid var(--text-color-secondary) 1px;
+    padding: 64px 0px;
+}
+
+.client-bar--main__left {
+    width: 170px;
+    height: 80px;
+    border-right: solid var(--text-color-secondary) 1px;
+    display: flex;
+    align-items: center;
+}
+
+.client-bar--main__right {
+    margin-left: 64px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
