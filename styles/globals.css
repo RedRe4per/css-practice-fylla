@@ -55,3 +55,21 @@ body {
   text-transform: uppercase;
 }
 
+.title-font {
+  font-family: var(--font-primary);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 110%;
+  color: var(--text-color-primary);
+}
+
+.normal-font {
+  font-family: var(--font-tertiary);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  color: var(--text-color-primary);
+}
+
