@@ -73,3 +73,14 @@ body {
   color: var(--text-color-primary);
 }
 
+.subtitle-font {
+  font-family: var(--font-secondary);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--text-color-primary);
+}
+

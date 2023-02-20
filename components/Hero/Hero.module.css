@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     border-bottom: solid var(--text-color-secondary) 1px;
-    padding: 60px 0px;
+    padding: 64px 0px;
 }
 
 .hero--section {
